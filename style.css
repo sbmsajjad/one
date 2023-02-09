@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section */
+.header {
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 599px;
+    width: 100%;
+}
+
+.hero-area {
+    text-align: right;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 65px;
+    padding: 20px 100px;
+}
+
+.hero-description {
+    width: 494px;
+    height: 78px;
+    text-align: justify;
+    left: 876px;
+    position: absolute;
+    padding: 0px 50px;
+}
+
+.primary-btn {
+    height: 64px;
+    width: 160px;
+    color: #ffffff;
+    background-color: #005FAC;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact-button {
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+/* services section */
+.services {
+    margin-top: 70px;
+    margin-right: 180px;
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.service-info {
+    margin-left: 150px;
+}
+
+.service-image {
+    max-width: 500px;
+}
+
+.service-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.service-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.services-list-items {
+    list-style-type: none;
+}
+
+.services-list-items li i {
+    margin-right: 4px;
+    color: green;
+}
+
+/* my plan area */
+.future-plan-area {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.my-plans {
+    display: flex;
+}
+
+.plan-item {
+    padding: 30px 100px;
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.plan-description {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* watch section */
+.watch-content {
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 210px;
+    padding: 50px;
+}
+
+.watch-title {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(87deg, #f15b22, transparent);
+}
+
+/* footer */
+footer {
+    background-color: #151414;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    padding: 100px 50px;
+    color: white;
+}
+
+.footer-title {
+    width: 148px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-content {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.social-icons img {
+    max-width: 20px;
+}
+
+.footer-subscribe {
+    width: 400px;
+}
+
+.footer-email {
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.subscribe-btn {
+    height: 64px;
+    width: 160px;
+    color: white;
+    background-color: #005FAC;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+}
